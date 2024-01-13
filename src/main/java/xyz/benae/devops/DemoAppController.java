@@ -9,6 +9,6 @@ public class DemoAppController {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello, Spring Boot!";
+        return "index";
     }
 }
